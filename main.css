@@ -6,7 +6,7 @@
 }
 
 html{
-    font-size: 16.3px;
+    font-size: 55%;
     font-family: 'Roboto', sans-serif;
     color: #f1f0f1;
 
@@ -65,12 +65,12 @@ img{
 }
 
 .section-heading h1{
-    font-size: 3rem;
+    font-size: 3%;
     color: rgba(255, 255, 255, 0.698);
     text-transform: uppercase;
     font-weight: 700;
     position: relative;
-    margin-bottom: 1rem;
+    margin-bottom: 1%;
     letter-spacing: .rem;
     
 }
@@ -99,8 +99,8 @@ img{
 }
   
 .section-heading h6{
-    font-size: 1.6rem;
-    font-weight: 300;
+    font-size: 1.6%;
+    font-weight: 10%;
    
     
 }
@@ -571,7 +571,7 @@ input[type="submit"]:hoover{
     }
 
     .landing-text h1{
-        font-size: 15rem;
+        font-size: 10%;
     }
     .landing-text h6{
         font-size: 1.7rem;
@@ -583,14 +583,14 @@ input[type="submit"]:hoover{
         margin: 2rem 0;
     }
     .nav-link{
-        font-size: 4.5rem;
+        font-size: 1%;
     }
     .about-heading hi{
-        font-size: 8rem;
+        font-size: 1%;
     }
 
     .section-heading h1{
-        font-size: 3rem;
+        font-size: 3%;
 
     }
 
@@ -676,6 +676,9 @@ input[type="submit"]:hoover{
 .up{
     right: 2rem;
 }
+    html {
+        zoom: .8;
+    }
 
 
   }  
