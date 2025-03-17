@@ -25,7 +25,7 @@ html{
 .four h3 {
     width: 40ch;
     border-right: 4px solid rgba(0, 0, 0, 0);
-    margin: 2rem auto;
+    margin: auto;
     white-space: nowrap;
     overflow: hidden;
     animation-delay: 4s;
