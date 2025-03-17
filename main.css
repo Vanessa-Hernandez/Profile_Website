@@ -12,6 +12,39 @@ html{
 
 }
 
+.wrapper.four {
+    background-color: hsla(0, 14%, 66%, 0);
+    font-size: 3rem;
+    font-family: "Courier New", Monospace;
+}
+.four .type{
+    padding: 2rem 1rem;
+    width: auto;
+    margin: auto;
+}
+.four h3 {
+    width: 40ch;
+    border-right: 4px solid rgba(0, 0, 0, 0);
+    margin: 2rem auto;
+    white-space: nowrap;
+    overflow: hidden;
+    animation-delay: 4s;
+    animation: typing 2.0s steps(13, end), blink-caret 0.5s step-end infinite alternate;
+}
+
+
+
+@-webkit-keyframes typing {
+    from {
+        width: 0;
+    }
+}
+@-webkit-keyframes blink-caret {
+    50% {
+        border-color: transparent;
+    }
+}
+
 .nav-tabs {
     overflow-x: auto;
     overflow-y: hidden;
@@ -287,8 +320,15 @@ font-weight: 300;
 }
 
 .profile-img{
+    width: 20%;
+    float: left
+    /* margin-right: 1rem; */
+}
+.text-img{
     flex: 1;
-    margin-right: 5rem;
+    padding-left: 5%;
+   
+    
 }
 
 
